@@ -12,6 +12,27 @@
             <option value="lamb">Lamb</option>
             <option value="vegan">Vegan</option>
         </select>
+        <br>
+        <label for="bun-type">Bun Type:</label>
+        <select name="bun-type" id="bun-type">
+            <option value="sesame">Sesame</option>
+            <option value="sourdough">Sourdough</option>
+            <option value="potato">Potato</option>
+        </select>
+        <br>
+        <label for="patties">Patties</label>
+        <input type="number" name="patties" min="1" max="4" value="1" />
+        <br>
+        <input type="checkbox" name="toppings" value="cheese">Cheese
+        <input type="checkbox" name="toppings" value="ketchup">Ketchup
+        <input type="checkbox" name="toppings" value="mustard">Mustard
+        <input type="checkbox" name="toppings" value="lettuce">Lettuce
+        <input type="checkbox" name="toppings" value="tomato">Tomato
+        <br>
+        <label for="special-instructions">Special Instructions</label>
+        <textarea name="special-instructions" rows=3 cols=30></textarea>
+        <br>
+        <input type="submit" value="Add to Order">
     </form>
     <a href="./index.html">Return to index</a>
   </body>
