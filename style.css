@@ -11,14 +11,9 @@ h1 {
   text-align: center;
   color: brown;
   font-family: "Trebuchet MS";
-  /*background-color: burlywood;*/
+  background-color: burlywood;
 }
 
 .order-title {
-  background-image: url("./images/burger-background-small.jpg");
-  height: 427px;
-  width: 640px;
-  margin: auto;
-  vertical-align: middle;
-  line-height: 427px;
+
 }
